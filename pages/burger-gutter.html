@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intital-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title>Delivery Food - доставка еды на дом</title>
+</head>
+<body>
+<header class="header">
+    <a href="../index.html" class="logo">
+        <img src="../img/logo.svg" alt="logo">
+    </a>
+    <div class="input-block__header">
+        <img src="../img/icons/home.svg" alt="search" class="input-material__icon">
+        <input type="text" placeholder="Адрес доставки" class="input input-material">
+    </div>
+    <button class="header__btn--signin">
+        <img src="../img/icons/profile.svg" alt="profile">
+        <span>Войти</span>
+    </button>
+    <button class="header__btn--cart openPopup">
+        <img src="../img/icons/cart.svg" alt="cart">
+        Корзина
+    </button>
+</header>
+<div class="background-color">
+    <div class="container">
+        <div class="restaurant-list__container animated fadeIn">
+            <div class="title-page">
+                <div class="restaurant-list__info-restaurant restaurant-page__title">
+                    <div class="restaurant-list__title">Буттер-гуттер</div>
+                    <div class="restaurant-food__img--rating">
+                        <img src="../img/icons/star.svg" alt="rating"> 4
+                    </div>
+                    <div class="restaurant-list__info--price">От 200 ₽</div>
+                    <div class="restaurant-list__info--food">Сэндвичи</div>
+                </div>
+            </div>
+
+            <div class="restaurant-list__block">
+                <div class="restaurant-list__card">
+                    <div class="restaurant-food__menu__img">
+                        <img src="../img/butter-gutter/dinner-sandiwch.png" alt="img">
+                    </div>
+                    <div class="restaurant-list__text-block">
+                        <div class="restaurant-list__text-block--title">
+                            <div class="page__title--item">Стандартный обеденный сэндвич</div>
+                        </div>
+                        <div class="restaurant-list__text-block--description">
+                            Сочный ростбиф и свежие овощи по Вашему выбору на свежевыпеченном хлебе в комбинации
+                            с Вашим любимым соусом.
+                        </div>
+                        <div class="restaurant-list__text-block--price-btn">
+                            <button class="restaurant-list__text-block--btn">
+                                В корзину
+                                <img src="../img/icons/cart-white.svg" alt="icon">
+                            </button>
+                            <div class="restaurant-list__text-block--price">225 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-list__card">
+                    <div class="restaurant-food__menu__img">
+                        <img src="../img/butter-gutter/double-sandwich.png" alt="img">
+                    </div>
+                    <div class="restaurant-list__text-block">
+                        <div class="restaurant-list__text-block--title">
+                            <div class="page__title--item">Двойной обеденный сэндвич</div>
+                        </div>
+                        <div class="restaurant-list__text-block--description">
+                            Нежная цельная куриная грудка в сочетании со свежими овощами по Вашему выбору на
+                            свежевыпеченном хлебе.
+                        </div>
+                        <div class="restaurant-list__text-block--price-btn">
+                            <button class="restaurant-list__text-block--btn">
+                                В корзину
+                                <img src="../img/icons/cart-white.svg" alt="icon">
+                            </button>
+                            <div class="restaurant-list__text-block--price">200 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-list__card">
+                    <div class="restaurant-food__menu__img">
+                        <img src="../img/butter-gutter/kurista-teriaki.png" alt="img">
+                    </div>
+                    <div class="restaurant-list__text-block">
+                        <div class="restaurant-list__text-block--title">
+                            <div class="page__title--item">Сэндвич с курицей терияки</div>
+                        </div>
+                        <div class="restaurant-list__text-block--description">
+                            Сочные кусочки курицы под восхитительном соусом «Терияки» в сочетании со свежими овощами
+                            по Вашему выбору на свежевыпеченном хлебе.
+                        </div>
+                        <div class="restaurant-list__text-block--price-btn">
+                            <button class="restaurant-list__text-block--btn">
+                                В корзину
+                                <img src="../img/icons/cart-white.svg" alt="icon">
+                            </button>
+                            <div class="restaurant-list__text-block--price">240 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-list__card">
+                    <div class="restaurant-food__menu__img">
+                        <img src="../img/butter-gutter/master-sandwich.png" alt="img">
+                    </div>
+                    <div class="restaurant-list__text-block">
+                        <div class="restaurant-list__text-block--title">
+                            <div class="page__title--item">Мастер сэндвич</div>
+                        </div>
+                        <div class="restaurant-list__text-block--description">
+                            Еще один низкокалорийный сэндвич. Гениальный в своей простоте. Сэндвич с ветчиной остается
+                            любимым сэндвичем многих наших посетителей.
+                        </div>
+                        <div class="restaurant-list__text-block--price-btn">
+                            <button class="restaurant-list__text-block--btn">
+                                В корзину
+                                <img src="../img/icons/cart-white.svg" alt="icon">
+                            </button>
+                            <div class="restaurant-list__text-block--price">285 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-list__card">
+                    <div class="restaurant-food__menu__img">
+                        <img src="../img/butter-gutter/meat-sandwich.jpg" alt="img">
+                    </div>
+                    <div class="restaurant-list__text-block">
+                        <div class="restaurant-list__text-block--title">
+                            <div class="page__title--item">Стейк-сэндвич</div>
+                        </div>
+                        <div class="restaurant-list__text-block--description">
+                            Сочный ростбиф и свежие овощи по Вашему выбору на свежевыпеченном хлебе в комбинации с Вашим
+                            любимым соусом.
+                        </div>
+                        <div class="restaurant-list__text-block--price-btn">
+                            <button class="restaurant-list__text-block--btn">
+                                В корзину
+                                <img src="../img/icons/cart-white.svg" alt="icon">
+                            </button>
+                            <div class="restaurant-list__text-block--price">300 ₽</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurant-list__card">
+                    <div class="restaurant-food__menu__img">
+                        <img src="../img/butter-gutter/salami.jpg" alt="img">
+                    </div>
+                    <div class="restaurant-list__text-block">
+                        <div class="restaurant-list__text-block--title">
+                            <div class="page__title--item">Стандартный обеденный сэндвич с салями</div>
+                        </div>
+                        <div class="restaurant-list__text-block--description">
+                            Перед Вами классический сэндвич, приготовленный из кусочков пряной пепперони и салями,
+                            дополненный сливочным сыром.
+                        </div>
+                        <div class="restaurant-list__text-block--price-btn">
+                            <button class="restaurant-list__text-block--btn">
+                                В корзину
+                                <img src="../img/icons/cart-white.svg" alt="icon">
+                            </button>
+                            <div class="restaurant-list__text-block--price">150 ₽</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <footer>
+        <div class="left-info">
+            <div class="footer-logo">
+                <img src="../img/logo.svg" alt="footer-logo">
+            </div>
+            <div class="footer-info">
+                <a href="" class="footers__links">Ресторанам</a>
+                <a href="" class="footers__links">Курьерам</a>
+                <a href="" class="footers__links">Пресс-центр</a>
+                <a href="" class="footers__links">Контакты</a>
+            </div>
+        </div>
+
+        <div class="footer-socials">
+            <a href="https://vk.com/nixyar" class="social-icon" target="_blank">
+                <img src="../img/icons/instagram.svg" alt="instagram-link">
+            </a>
+            <a href="https://vk.com/nixyar" class="social-icon" target="_blank">
+                <img src="../img/icons/facebook.svg" alt="facebook-link">
+            </a>
+            <a href="https://vk.com/nixyar" class="social-icon" target="_blank">
+                <img src="../img/icons/vk.svg" alt="vk-link">
+            </a>
+        </div>
+    </footer>
+</div>
+
+<div class="popup animated fadeIn">
+    <div class="popup-container">
+        <div class="popup-block">
+                <span class="popup-block__cross closePopup">
+                    <img src="../img/icons/cross.svg " alt="close">
+                </span>
+            <div class="popup-title">Корзина</div>
+            <div class="popup__cart-items">
+                <div class="popup__cart-item">
+                    <div class="popup__cart-item--title">Ролл угорь стандарт</div>
+                    <div class="popup__cart-item--count">
+                        <div class="popup__cart-item--price">250 ₽</div>
+                        <button class="popup__cart-item--count-minus">-</button>
+                        <div class="popup__cart-item--count-number">1</div>
+                        <button class="popup__cart-item--count-plus">+</button>
+                    </div>
+                </div>
+                <div class="popup__cart-item">
+                    <div class="popup__cart-item--title">Ролл угорь стандарт</div>
+                    <div class="popup__cart-item--count">
+                        <div class="popup__cart-item--price">250 ₽</div>
+                        <button class="popup__cart-item--count-minus">-</button>
+                        <div class="popup__cart-item--count-number">1</div>
+                        <button class="popup__cart-item--count-plus">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="popup__cart-footer">
+                <div class="popup__cart-footer--all-price">1250 ₽</div>
+
+                <div class="popup__cart-footer--btns">
+                    <button class="restaurant-list__text-block--btn ">
+                        Оформить заказ
+                    </button>
+
+                    <button class="header__btn--cart closePopup">
+                        Отмена
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../js/script.js"></script>
+</html>
