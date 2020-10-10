@@ -22,7 +22,7 @@
         <img src="img/icons/profile.svg" alt="profile">
         <span>Войти</span>
     </button>
-    <button class="header__btn--cart">
+    <button class="header__btn--cart openPopup">
         <img src="img/icons/cart.svg" alt="cart">
         Корзина
     </button>
@@ -161,6 +161,50 @@
             </a>
         </div>
     </footer>
+</div>
+
+<div class="popup animated fadeIn">
+    <div class="popup-container">
+        <div class="popup-block">
+                <span class="popup-block__cross closePopup">
+                    <img src="img/icons/cross.svg " alt="close">
+                </span>
+            <div class="popup-title">Корзина</div>
+            <div class="popup__cart-items">
+                <div class="popup__cart-item">
+                    <div class="popup__cart-item--title">Ролл угорь стандарт</div>
+                    <div class="popup__cart-item--count">
+                        <div class="popup__cart-item--price">250 ₽</div>
+                        <button class="popup__cart-item--count-minus">-</button>
+                        <div class="popup__cart-item--count-number">1</div>
+                        <button class="popup__cart-item--count-plus">+</button>
+                    </div>
+                </div>
+                <div class="popup__cart-item">
+                    <div class="popup__cart-item--title">Ролл угорь стандарт</div>
+                    <div class="popup__cart-item--count">
+                        <div class="popup__cart-item--price">250 ₽</div>
+                        <button class="popup__cart-item--count-minus">-</button>
+                        <div class="popup__cart-item--count-number">1</div>
+                        <button class="popup__cart-item--count-plus">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="popup__cart-footer">
+                <div class="popup__cart-footer--all-price">1250 ₽</div>
+
+                <div class="popup__cart-footer--btns">
+                    <button class="restaurant-list__text-block--btn ">
+                        Оформить заказ
+                    </button>
+
+                    <button class="header__btn--cart closePopup">
+                        Отмена
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>
